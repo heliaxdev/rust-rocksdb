@@ -1,11 +1,11 @@
 [package]
-name = "rocksdb"
-description = "Rust wrapper for Facebook's RocksDB embeddable database"
-version = "0.22.0"
+name = "nam-rocksdb"
+description = "(Namada fork) Rust wrapper for Facebook's RocksDB embeddable database"
+version = "0.22.1-nam.0"
 edition = "2018"
 rust-version = "1.66.0"
 authors = ["Tyler Neely <t@jujit.su>", "David Greenberg <dsg123456789@gmail.com>"]
-repository = "https://github.com/rust-rocksdb/rust-rocksdb"
+repository = "https://github.com/anoma/rust-rocksdb"
 license = "Apache-2.0"
 categories = [ "database" ]
 keywords = ["database", "embedded", "LSM-tree", "persistence"]
@@ -36,7 +36,7 @@ serde1 = ["serde"]
 
 [dependencies]
 libc = "0.2"
-librocksdb-sys = { path = "librocksdb-sys", version = "0.16.0" }
+librocksdb-sys = { package = "nam-librocksdb-sys", path = "librocksdb-sys", version = "0.16.0" }
 serde = { version = "1", features = [ "derive" ], optional = true }
 
 [dev-dependencies]

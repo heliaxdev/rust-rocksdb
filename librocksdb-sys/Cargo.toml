@@ -1,13 +1,13 @@
 [package]
-name = "librocksdb-sys"
-version = "0.16.0+8.10.0"
+name = "nam-librocksdb-sys"
+version = "0.16.1+8.10.0-nam.0"
 edition = "2018"
 rust-version = "1.66.0"
 authors = ["Karl Hobley <karlhobley10@gmail.com>", "Arkadiy Paronyan <arkadiy@ethcore.io>"]
 license = "MIT/Apache-2.0/BSD-3-Clause"
-description = "Native bindings to librocksdb"
+description = "(Namada fork) Native bindings to librocksdb"
 readme = "README.md"
-repository = "https://github.com/rust-rocksdb/rust-rocksdb"
+repository = "https://github.com/anoma/rust-rocksdb"
 keywords = [ "bindings", "ffi", "rocksdb" ]
 categories = [ "api-bindings", "database", "external-ffi-bindings" ]
 links = "rocksdb"
